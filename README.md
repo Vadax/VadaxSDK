@@ -2,10 +2,10 @@
 The VadaxSDK is a C++ software development toolkit for the Linux and Windows operating systems. 
 
 - Archival & Compresssion
-  - Miniz https://github.com/richgel999/miniz
+  - libarchive https://github.com/libarchive/libarchive
 
 - Cryptography
-  - Botan
+  - Botan https://github.com/randombit/botan
   
 - Database
   - PostgreSQL
@@ -22,5 +22,6 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
   - TOML https://github.com/marzer/tomlplusplus/
 
 - Network
-  - NNG
+  - NNG 
+  - libcurl https://github.com/curl/curl
 
