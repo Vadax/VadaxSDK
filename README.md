@@ -24,14 +24,15 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
 - Graphics
   - GLFW
   - OpenGL/Vulkan
-  - Skia https://github.com/google/skia | BSD
+  - Skia https://github.com/google/skia | 2D Graphics Library | BSD License
+  - Amoeba https://github.com/starwing/amoeba | Cassowary Constraint Solver | MIT License
 
 - Image
   - OpenImageIO https://github.com/OpenImageIO/oiio
 
 - Multimedia 
   - Audio
-    - miniaudio https://github.com/mackron/miniaudio
+    - miniaudio https://github.com/mackron/miniaudio | Sound System | MIT License
     - flac https://xiph.org/flac/
     - wav
     - vorbis https://xiph.org/vorbis/
