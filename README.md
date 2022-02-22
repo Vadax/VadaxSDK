@@ -22,9 +22,9 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
   - TOML https://github.com/marzer/tomlplusplus/
 
 - Graphics
-- GLFW
-- OpenGL/Vulkan
-- Skia https://github.com/google/skia | BSD
+  - GLFW
+  - OpenGL/Vulkan
+  - Skia https://github.com/google/skia | BSD
 
 - Multimedia 
   - Audio
@@ -39,4 +39,4 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
   - libcurl https://github.com/curl/curl
 
 - Web Browser
-- Chromium Embedded Framework https://bitbucket.org/chromiumembedded/cef/src/master/ | BSD
+  - Chromium Embedded Framework https://bitbucket.org/chromiumembedded/cef/src/master/ | BSD
