@@ -1,6 +1,9 @@
 # VadaxSDK
 The VadaxSDK is a C++ software development toolkit for the Linux and Windows operating systems. 
 
+- Archival & Compresssion
+  - libzip https://github.com/nih-at/libzip
+
 - Cryptography
   - Botan
   
@@ -10,8 +13,14 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
   - lmdb
   - Memcached
   - Redis
+  - LevelDB
 
 - Data Serialization Languages
-  - XML | pugixml
+  - XML https://pugixml.org/
   - YAML
-  - JSON 
+  - JSON
+  - TOML https://github.com/marzer/tomlplusplus/
+
+- Network
+  - NNG
+
