@@ -4,6 +4,9 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
 - Archival & Compresssion
   - libarchive https://github.com/libarchive/libarchive
 
+- Core
+  - Boost https://www.boost.org/
+
 - Cryptography
   - Botan https://github.com/randombit/botan
   
@@ -51,3 +54,21 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
 
 - Web Browser
   - Chromium Embedded Framework https://bitbucket.org/chromiumembedded/cef/src/master/ | BSD
+
+## Investigating
+-----
+
+- Database
+  - ArangoDB https://www.arangodb.com/
+
+- Templet Engine
+  - Inja https://github.com/pantor/inja
+
+- Hardware Information
+  - Infoware https://github.com/ThePhD/infoware
+
+- Tweening
+  - Tweeny https://github.com/mobius3/tweeny
+
+- Commandline
+  - https://github.com/daniele77/cli 
