@@ -22,7 +22,7 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
   - TOML https://github.com/marzer/tomlplusplus/
 
 - Graphics
-  - GLFW
+  - GLFW | Windows, Contexts and Surfaces, Receiving Input and Events | Zlib/Libpng License
   - OpenGL/Vulkan
   - Skia https://github.com/google/skia | 2D Graphics Library | BSD License
   - Amoeba https://github.com/starwing/amoeba | Cassowary Constraint Solver | MIT License
