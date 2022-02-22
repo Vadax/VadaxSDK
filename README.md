@@ -8,8 +8,8 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
   - Boost https://www.boost.org/
 
 - Cloud
-  - AWS C++ SDK https://github.com/aws/aws-sdk-cpp | MIT
-  - Azure C++ SDK https://github.com/Azure/azure-sdk-for-cpp | MIT
+  - Amazon AWS C++ SDK https://github.com/aws/aws-sdk-cpp | MIT
+  - Microsoft Azure C++ SDK https://github.com/Azure/azure-sdk-for-cpp | MIT
 
 - Cryptography
   - Botan https://github.com/randombit/botan | BSD
@@ -76,3 +76,7 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
 
 - Commandline
   - https://github.com/daniele77/cli 
+
+- Cloud
+  - Google   - Google Cloud https://github.com/googleapis/google-cloud-cpp | Apache 2.0
+
