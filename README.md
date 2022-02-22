@@ -28,6 +28,7 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
 
 - Multimedia 
   - Audio
+    - miniaudio https://github.com/mackron/miniaudio
     - flac https://xiph.org/flac/
     - wav 
   - Video
