@@ -2,7 +2,7 @@
 The VadaxSDK is a C++ software development toolkit for the Linux and Windows operating systems. 
 
 - Archival & Compresssion
-  - libzip https://github.com/nih-at/libzip
+  - Miniz https://github.com/richgel999/miniz
 
 - Cryptography
   - Botan
