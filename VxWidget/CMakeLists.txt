@@ -8,8 +8,12 @@ project ("VxWidget")
 # CMake instructions to make the static lib
 
 ADD_LIBRARY( VxWidget STATIC
-vxwidget.cpp
+vxabstractbutton.cpp
+vxcheckbox.cpp
+vxcombobox.cpp
+vxdialog.cpp
 vxpushbutton.cpp
+vxwidget.cpp
 )
 
 # CMake instructions to test using the static lib

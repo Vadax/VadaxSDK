@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "vxwidget.h"
 #include "vxpushbutton.h"
+#include "vxabstractbutton.h"
+#include "vxcheckbox.h"
 
 int main() {
 
@@ -14,6 +16,13 @@ int main() {
 
     VxPushButton* pushbtn = new VxPushButton();
     pushbtn->testPushButton();
+
+    VxAbstractButton* ab = new VxAbstractButton();
+    delete ab;
+
+    VxCheckBox* cb = new VxCheckBox();
+    std::cout << cb->acceptsDrops() << std::endl;
+    delete cb;
 
     delete pushbtn;
     delete win;
