@@ -33,6 +33,8 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
   - OpenGL/Vulkan
   - Skia https://github.com/google/skia | ```2D Graphics Library``` | BSD License
   - Amoeba https://github.com/starwing/amoeba | ```Cassowary Constraint Solver``` | MIT License
+  - Wayland
+  - wlroots | Used to build a wayland compositor | https://github.com/swaywm/wlroots
 
 - Image
   - OpenImageIO https://github.com/OpenImageIO/oiio
