@@ -31,6 +31,7 @@ The VadaxSDK is a C++ software development toolkit for the Linux and Windows ope
 - Graphics
   - GLFW | ```Windows, Contexts and Surfaces, Receiving Input and Events``` | Zlib/Libpng License
   - OpenGL/Vulkan
+  - Blend2D | Used to supply ui graphics | https://github.com/blend2d/blend2d
   - Skia https://github.com/google/skia | ```2D Graphics Library``` | BSD License
   - Amoeba https://github.com/starwing/amoeba | ```Cassowary Constraint Solver``` | MIT License
   - Wayland
