@@ -1,5 +1,6 @@
 #include <iostream>
 #include <list>
+#include <vector>
 
 using namespace std;
 
@@ -60,23 +61,26 @@ public:
 	}
 };
 
-// Window type enum
-enum WindowType { Widget, Dialog, Notification, Panel };
+// Widget type enum
+enum WidgetType {ZxWidget, ZxDialog, ZxNotification, ZxPanel } WidgetFlags;
 
-// Window class
-class Window: public Object, public Surface {
+// Widget class
+class Widget : public Object, public Surface {
 public:
-	Window() {
-		cout << "Window constructor called" << endl;
+	Widget(Widget *parent = nullptr, WidgetType f = WidgetFlags) {
+		cout << "Widget constructor called" << endl;
+		m_Children.push_back(parent);
 	}
 
-	virtual ~Window() {
-		cout << "Window destructor called" << endl;
+	virtual ~Widget() {
+		cout << "Widget destructor called" << endl;
 	}
 
-	void testWindow() {
-		cout << "In window" << endl;
+	void testWidget() {
+		cout << m_Children.size() << endl;
 	}
+
+	vector<Widget*> m_Children;
 };
 
 
@@ -84,19 +88,25 @@ public:
 // Program main
 int main()
 {
-	Window* win = new Window();
+	Widget* win = new Widget();
 	Object* object = win;
 
 	object->testObject();
 	delete object;
 
-	string arr[5] = { "Steve", "Bob"};
+	string arr[5] = { "Steve", "Bob" };
 	Array<string> a(arr, 5);
 	a.print();
 
 	win->testObject();
 	win->testSurface();
-	win->testWindow();
+	win->testWidget();
+
+
+	Widget* btn = new Widget(win);
+	Widget* btn2 = new Widget(win);
+	btn->testWidget();
+	win->testWidget();
 
 	getchar();
 	return 0;
