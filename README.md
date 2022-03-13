@@ -1,5 +1,5 @@
 # VadaxSDK
-The VadaxSDK is a Asm, C & C++ software development toolkit for ARM(MPU)/Linux & ARM(MCU)/FreeRTOS designed for inexperienced programmers.
+The VadaxSDK is a Asm, C & C++ software development toolkit for ARM(MPU & MCU) designed for inexperienced programmers.
 
 #### Development Process
 ![API](https://raw.githubusercontent.com/Vadax/VadaxSDK/main/examples/api.png)
